@@ -1,0 +1,11 @@
+package project2;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Salary person = new Salary(3000.0,9000,1000.0);
+		System.out.print(person.getSum()+ " " + person.getMonth()+ " "+person.getTax());
+	}
+
+}
